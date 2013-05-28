@@ -3,12 +3,13 @@ Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
 */
 ALTER PROCEDURE getSchemaChangeLog
+-- jsj Changed result set to count.
 AS
 DECLARE @d DATETIME = GETDATE();
 
  -- read all items that have not been viewed with this process.
   SELECT 
-   *
+   COUNT(*)
    FROM dbo.SchemaChangeLog
    WHERE isRead = 0
    AND EventTime <= @d
