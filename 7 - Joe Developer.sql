@@ -25,4 +25,5 @@ go
 
 DROP TABLE MyTABLE;
 go
+DROP PROCEDURE myproc;
 
