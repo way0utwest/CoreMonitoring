@@ -1,6 +1,7 @@
 /*
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
+- log in as administrator
 */
 CREATE PROCEDURE getSchemaChangeLog
 AS

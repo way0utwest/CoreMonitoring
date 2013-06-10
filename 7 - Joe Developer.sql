@@ -5,9 +5,6 @@ Joe Developer logs in and changes things.
 */
 USE DBAAdmin;
 go
--- remove a procedure
-DROP PROCEDURE dbo.getSchemaChangeLog;
-GO
 
 
 -- change database
@@ -19,6 +16,13 @@ CREATE TABLE MyTable
 )
 ;
 GO
+CREATE PROCEDURE MyProc
+AS 
+SELECT *
+ FROM dbo.MyTable;
+RETURN
+go
+
 DROP TABLE MyTABLE;
 go
 

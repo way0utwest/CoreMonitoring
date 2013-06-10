@@ -2,6 +2,8 @@
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
 */
+USE sandbox
+GO
 ALTER PROCEDURE getSchemaChangeLog
 -- jsj Changed result set to count.
 AS
@@ -24,7 +26,3 @@ RETURN
 go
 
 
-
-/*
-Potential problems with this script.
-*/

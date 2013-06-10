@@ -13,4 +13,4 @@ SELECT  ItemID ,
 		isRead ,
         CommandText
  FROM dbo.SchemaChangeLog
-
+ ORDER BY EventTime DESC
