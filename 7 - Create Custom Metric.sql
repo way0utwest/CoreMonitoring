@@ -27,3 +27,6 @@ GO
 -- Enabled
 
 -- Create alert
+
+
+-- alter object in production.
