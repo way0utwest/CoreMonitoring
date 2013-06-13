@@ -74,3 +74,5 @@ GO
 
 
 -- Switch to SQL Monitor
+-- show counters for same time period as the trace, note that we see the data.
+-- 

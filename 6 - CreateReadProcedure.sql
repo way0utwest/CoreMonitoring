@@ -2,7 +2,10 @@
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
 - log in as administrator
+
 */
+USE DBAAdmin;
+go
 CREATE PROCEDURE getSchemaChangeLog
 AS
  -- read all items that have not been viewed with this process.

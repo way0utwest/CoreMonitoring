@@ -2,7 +2,7 @@
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
 */
-USE sandbox
+USE DBAAdmin
 GO
 ALTER PROCEDURE getSchemaChangeLog
 -- jsj Changed result set to count.
