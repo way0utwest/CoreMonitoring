@@ -3,8 +3,8 @@ Core Monitoring Cleanup
 */
 
 -- Run perfmon, delete user defined collector sets
-
--- SQL Srever
+-- Delete custom metrics from SQL Monitor
+-- SQL Server
 USE DBAAdmin
 ;
 GO

@@ -2,7 +2,7 @@
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
 - log in as administrator
-
+create this procedure to be used in the custom metric.
 */
 USE DBAAdmin;
 go

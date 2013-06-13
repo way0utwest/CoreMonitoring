@@ -2,10 +2,9 @@
 Core Monitoring - Test the procedure
 
 Joe Developer logs in and changes things.
-*/
-USE DBAAdmin;
-go
 
+Change connection to JoeDeveoper (Joe) with SQL Auth.
+*/
 
 -- change database
 USE Sandbox;

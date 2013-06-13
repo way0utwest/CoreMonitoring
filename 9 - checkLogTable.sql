@@ -1,5 +1,7 @@
 /*
 Core Monitoring - Check the schemachangelog table
+
+View the data in the log table
 */
 USE DBAAdmin;
 go

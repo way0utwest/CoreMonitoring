@@ -1,6 +1,7 @@
 /*
 Core Monitoring - Create Procedure to read data from SchemaChangeLog
 
+Update the read procedure to deal with timing issues.
 */
 USE DBAAdmin
 GO
