@@ -2,6 +2,9 @@
 Core Monitoring Cleanup
 */
 
+-- Run perfmon, delete user defined collector sets
+
+-- SQL Srever
 USE DBAAdmin
 ;
 GO
